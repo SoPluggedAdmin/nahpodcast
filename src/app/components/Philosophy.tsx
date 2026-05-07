@@ -84,7 +84,7 @@ export function Philosophy() {
                 {/* Main Large Image */}
                 <div className="relative w-full aspect-[16/10] overflow-hidden rounded-sm group shadow-sm transition-all duration-700">
                   <img
-                    src="/philosophy-1.png"
+                    src="philosophy-1.png"
                     alt="Nina and Alma conversation"
                     className="w-full h-full object-cover grayscale transition-all duration-1000 group-hover:grayscale-0 group-hover:scale-105"
                   />
@@ -93,7 +93,7 @@ export function Philosophy() {
                 {/* Secondary Inset Image */}
                 <div className="absolute -bottom-16 -left-8 lg:-left-24 w-1/2 aspect-square overflow-hidden rounded-sm shadow-2xl border-[12px] border-[#F9F8F6] z-20 group">
                   <img
-                    src="/philosophy-2.png"
+                    src="philosophy-2.png"
                     alt="Candid moment"
                     className="w-full h-full object-cover grayscale transition-all duration-1000 group-hover:grayscale-0 group-hover:scale-110"
                   />

@@ -83,7 +83,7 @@ export function Hero() {
           <div className="lg:col-span-7 order-1 lg:order-2">
             <div className="relative aspect-square overflow-hidden rounded-2xl shadow-2xl">
               <img
-                src="/hero.png?v=8"
+                src="hero.png?v=8"
                 alt="Nina and Alma"
                 className="w-full h-full object-cover grayscale-0 contrast-100 brightness-100"
               />
