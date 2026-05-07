@@ -42,19 +42,15 @@ export function Navbar() {
         {/* Links Section */}
         <div className="flex items-center gap-4 md:gap-8 flex-wrap justify-center">
           {[
-            { name: 'Philosophy', id: 'philosophy' },
-            { name: '#NAHFAM', id: 'junk-mail' },
-            { name: 'Events', id: 'sessions' },
-            { name: 'YouTube', id: 'youtube', external: 'https://youtube.com' },
-            { name: 'Spotify', id: 'spotify', external: 'https://open.spotify.com' },
-            { name: 'Voicemail', id: 'junk-mail' },
+            { name: 'Watch', id: 'watch', external: 'https://youtube.com' },
+            { name: 'Listen', id: 'listen', external: 'https://open.spotify.com' },
+            { name: 'Connect', id: 'connect', external: 'https://instagram.com' },
           ].map((link, index, array) => (
             <React.Fragment key={link.name}>
               <a
-                href={link.external || `#${link.id}`}
-                onClick={(e) => !link.external && scrollToSection(e, link.id)}
-                target={link.external ? "_blank" : undefined}
-                rel={link.external ? "noopener noreferrer" : undefined}
+                href={link.external}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-[#1A1A1A]/60 hover:text-[#1A1A1A] transition-all duration-300 text-[10px] tracking-[0.25em] uppercase font-bold"
                 style={{ fontFamily: "'Inter', sans-serif" }}
               >
